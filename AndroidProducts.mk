@@ -1,2 +1,7 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_onclite.mk
+    $(LOCAL_DIR)/xdroid_onclite.mk
+
+COMMON_LUNCH_CHOICES := \
+    xdroid_onclite-user \
+    xdroid_onclite-userdebug \
+    xdroid_onclite-eng
